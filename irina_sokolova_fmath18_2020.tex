@@ -1,0 +1,43 @@
+\documentclass[12pt]{book}
+%\usepackage[cp1251]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{amssymb,latexsym,amsmath,euscript,amsfonts,amsthm}\usepackage{graphicx}
+\usepackage{color}
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setdefaultlanguage{russian}
+\setmainfont[Mapping=tex-text]{CMU Serif}
+\usepackage[font=small]{caption}
+
+\title{Курсовая работа}
+\author{Соколова Ирина}
+
+\newtheorem{theorem}{Теорема}[chapter]
+\newtheorem{lemma}{Лемма}[chapter]
+\newtheorem*{corollary}{Следствие}
+\newtheorem{definition}{Определение}[chapter]
+\newtheorem*{conjecture}{Гипотеза}
+\newtheorem*{example}{Пример}
+\newtheorem*{remark}{Замечание}
+\newtheorem*{criteria}{Критерий}
+
+\newcounter{exercise}
+\newenvironment{exercise}{\refstepcounter{exercise}\smallskip\noindent\textbf{Упражнение~\theexercise.}}{}
+\numberwithin{exercise}{chapter}
+
+\newenvironment{demo}{\noindent\textsl{Доказательство. }}{ $\square$ \medskip}
+
+\begin{document}
+\pagestyle{plain}
+\makeatletter
+
+\section{Введение}
+
+Введение
+
+%%\@input{preface}
+%%\@input{ch1_1}
+%%\@input{bibliography}
+\makeatother
+\end{document}
