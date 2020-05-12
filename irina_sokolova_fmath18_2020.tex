@@ -1,5 +1,5 @@
-\documentclass[11pt]{article}
-\usepackage[14pt]{extsizes}
+\documentclass[14pt]{article}
+%\usepackage[12pt]{extsizes}
 %\usepackage[cp1251]{inputenc}
 \usepackage[english,russian]{babel}
 \usepackage{amssymb,latexsym,amsmath,euscript,amsfonts,amsthm}
@@ -55,20 +55,28 @@
 \textbf{Нижний Новгород}\\
 \bigskip
 \bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
 \normalsize{Факультет Информатики,  Математики и Компьютерных Наук}\\
 \normalsize{Программа подготовки бакалавров:}\\
 \normalsize{ Фундаментальная математика}\\
 \normalsize{ 2019-2020 учебный год}\\
-%\bigskip
-%\bigskip
-%\bigskip
 \bigskip
-%\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
 \footnotesize\uppercase{курсовая работа}\\
 \bigskip
 \textbf{\large{О расположениях кубики и пары коник в}}\\
 \textbf{\large{вещественной проективной плоскости}}\\
 \end{center}
+\bigskip
+\bigskip
 \bigskip
 \bigskip
 \bigskip
@@ -118,7 +126,7 @@
 Каждая компонента связности множества  $\mathbb RC_m$ вещественных точек неособой кривой $C_m$ гомеоморфна окружности. В случае четной степени эта окружность называется овалом; каждый овал делит $\mathbb RP^2$ на две области: гомеоморфную диску и гомеоморфную листу Мебиуса. В случае нечетной степени среди вещественных ветвей кроме овалов имеется ровна одна ветвь, вложенная в $\mathbb RP^2$ односторонне, она называется нечетной ветвью.
 
 \begin{theorem}[Теорема Харнака (1876)]
-Пусть $N$ -- число вещественых ветвей кривой $C_m$. Тогда выполняется следующее неравенство $N \leqslant (m - 1) \cdot (m - 2)/2 + 1$, и эта оценка точна для любого $m$.
+Пусть $N$ -- это число вещественых ветвей кривой $C_m$. Тогда выполняется следующее неравенство $N \leqslant (m - 1) \cdot (m - 2)/2 + 1$, и эта оценка точна для любого $m$.
 \end{theorem}
 
 \begin{definition}
@@ -148,19 +156,19 @@
 \begin{figure}[H]
      \begin{subfigure}[b]{0.2\textwidth}
     \centering
-    \includegraphics[scale=0.45]{loc_odd_brunch_1.png}
+    \includegraphics[scale=0.55]{loc_odd_brunch_1.png}
     \caption{}
   \end{subfigure}
   \hspace{2cm}
   \begin{subfigure}[b]{0.2\textwidth}
     \centering
-    \includegraphics[scale=0.45]{loc_odd_brunch_2.png}
+    \includegraphics[scale=0.55]{loc_odd_brunch_2.png}
     \caption{}
   \end{subfigure}
   \hspace{2cm}
   \begin{subfigure}[b]{0.2\textwidth}
     \centering
-    \includegraphics[scale=0.45]{loc_odd_brunch_3.png}
+    \includegraphics[scale=0.55]{loc_odd_brunch_3.png}
     \caption{}
   \end{subfigure}
 \caption{Расположения нечетной ветви}
@@ -172,7 +180,7 @@
 Пусть $\mathbb RC_2$ -- «горизонтальный» овал, $\mathbb RC_2^*$ -- «вертикальный» овал. Занумеруем точки, в которых нечётная ветвь пересекает эти овалы так, как показано на рисунке \ref{fig:model_1-5}. Рассмотрим все логически возможные способы прохождения нечётной ветви через эти 12 точек. Не нарушая общности, будем всегда рассматривать начало пересечения нечетной ветви с кониками на левой внешней дуге овала $\mathbb RC_2$. 
 
 \begin{figure}[H]
-\center{\includegraphics[scale=0.6]{model_1-5.png}}
+\center{\includegraphics[scale=0.65]{model_1-5.png}}
 \caption{Модель}
 \label{fig:model_1-5}
 \end{figure}
@@ -186,13 +194,13 @@
 \begin{figure}[H]
      \begin{subfigure}[b]{0.2\textwidth}
     \centering
-    \includegraphics[scale=0.65]{two_bad_ex_1.png}
+    \includegraphics[scale=0.5]{two_bad_ex_1.png}
     \caption{}
   \end{subfigure}
   \hspace{4cm}
   \begin{subfigure}[b]{0.2\textwidth}
     \centering
-    \includegraphics[scale=0.65]{two_bad_ex_2.png}
+    \includegraphics[scale=0.5]{two_bad_ex_2.png}
     \caption{}
   \end{subfigure}
 \centering
@@ -215,7 +223,7 @@
 Но в случае, который представлен на рисунке \ref{fig:intersection_of_ovals} справа, расположение нечетной ветви будет противоречить пункту 5 -- при соблюдении условий 1-4 не будет соблюдаться условие 5 (рис. \ref{fig:prohibit_second_inters_ovals}),  поэтому мы будем рассматривать только первый случай .
 
 \begin{figure}[H]
-\center{\includegraphics[scale=0.9]{prohibit_second_inters_ovals.png}}
+\center{\includegraphics[scale=0.75]{prohibit_second_inters_ovals.png}}
 \caption{}
 \label{fig:prohibit_second_inters_ovals}
 \end{figure}
@@ -224,7 +232,7 @@
 Проиллюстрируем случаи пересечения нечетной ветви с кониками, соответствующие оставшимся подстановкам. Всего получится $4 \cdot 4 = 16$ иллюстраций, но некоторые из них дают гомеоморфные картинки, попарно негомеоморфных получилось 11. 
 
 \begin{figure}[H]
-\center{\includegraphics[scale=0.93]{curves_without_ovals.png}}
+\center{\includegraphics[scale=0.75]{curves_without_ovals.png}}
 \caption{Модели без овала кубики}
 \label{fig:curves_without_ovals}
 \end{figure}
@@ -234,7 +242,7 @@
 Так как необходимо учитывать эти ограничения для каждой из двух коник, то для каждой ситуации (картинки) на рисунке \ref{fig:curves_without_ovals} надо найти пересечение допустимой области относительно одной коники с допустимой областью относительно второй коники. На рисунке \ref{fig:intersection_of_fields} показано пересечение областей, допустимых для овала, у первой модели на рисунке \ref{fig:curves_without_ovals}.
 
 \begin{figure}[H]
-\center{\includegraphics[scale=0.8]{intersection_of_fields.png}}
+\center{\includegraphics[scale=0.5]{intersection_of_fields.png}}
 \caption{}
 \label{fig:intersection_of_fields}
 \end{figure}
@@ -242,12 +250,12 @@
 Получим следующие возможные случаи:
 
 \begin{figure}[H]
-\center{\includegraphics[scale=0.9]{curves_with_ovals.png}}
+\center{\includegraphics[scale=0.73]{curves_with_ovals.png}}
 \caption{Модели с допустимыми областями для овала}
 \label{fig:curves_with_ovals}
 \end{figure}
 
-Таким образом, 11 моделей подлежат дальнейшему исследованию на предмет реализуемости их алгебраическими кривыми рассматриваемого класса.
+Таким образом, 14 моделей подлежат дальнейшему исследованию на предмет реализуемости их алгебраическими кривыми рассматриваемого класса.
 
 \newpage
 \section{Заключение}
@@ -256,7 +264,7 @@
 \newpage
 \addcontentsline{toc}{section}{Список используемой литературы}
 \begin{thebibliography}{}
-\bibitem{litlink1}{PA} Д. А. Гудков, Е. И. Шустин, Г. М. Полотовский "Топология вещественных алгебраических многообразий", г. Горький, издание ГТУ, 1986г.
+\bibitem{litlink1} Топология вещественных алгебраических многообразий. Ч. 1 -- 6 / Методическая разработка, сост. Гудков Д.А., Полотовский Г.М., Шустин Е.И. -- Горький: ГГУ, 1986-1987.
 \bibitem{litlink2}Полотовский Г. М. Топологическая классификация распадающихся кривых 6-го порядка // Дисс. на соиск. степ. канд. ф-м наук, Горький, 1979. 261 с
 
 \bibitem{litlink3}Kuzmenko T., Polotovsky G. Classification of curves of degree 6 decomposing into a product of M-curves in general position // AMS Translations, Ser. 2, Vol. 173 "Topology of real algebraic Vsrieties and Related Topics". 1996.P.165-177
